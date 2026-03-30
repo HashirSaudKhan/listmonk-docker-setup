@@ -1,5 +1,5 @@
 Your GitHub README.md
-# 🚀 Listmonk Installation and Configuration Guide
+# 🚀 Listmonk and PostgreSQL Installation(RHEL) and Configuration Guide
 
 This guide provides a step-by-step procedure to:
 - Prepare a Linux environment
