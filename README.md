@@ -153,6 +153,3 @@ http://your-server-ip:9000
 
 
 ```md
-![Docker](https://img.shields.io/badge/docker-ready-blue)
-![PostgreSQL](https://img.shields.io/badge/postgres-17-green)
-![License](https://img.shields.io/badge/license-MIT-yellow)
