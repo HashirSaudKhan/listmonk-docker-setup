@@ -18,7 +18,7 @@ docker compose --version
 
 If not installed, follow official Docker documentation.
 
-🔐 2. Security and Firewall Configuration
+## 🔐 2. Security and Firewall Configuration
 
 Disable Firewall
 ```bash
@@ -42,8 +42,8 @@ Verify after reboot:
 ```bash
 getenforce
 ```
-⚙️ 3. Listmonk Deployment
-📁 Step 3.1: Directory and Permissions Setup
+## ⚙️ 3. Listmonk Deployment
+### 📁 Step 3.1: Directory and Permissions Setup
 
 ```bash
 mkdir -p /opt/listmonk-service
@@ -59,7 +59,7 @@ Edit config:
 vi /opt/listmonk-service/config/config.toml
 ```
 
-🐳 Step 3.2: Docker Compose Setup
+### 🐳 Step 3.2: Docker Compose Setup
 ```bash
 cd /opt/listmonk-service
 vi docker-compose.yml
@@ -104,7 +104,8 @@ networks:
         - subnet: 10.0.0.0/24
 ```
 
-▶️ 4. Starting the Service
+## ▶️ 4. Starting the Service
+
 Start Containers
 docker compose up -d
 🛠 Step 4.2: Database Initialization (First Time)
